@@ -208,7 +208,7 @@ const mailFunction = (sendTo,roomName,StartTime,userName,userEmail,roomid) => {
     html: `
             <h4> Invitation to meeting: <u>${roomName}</u> on ${date} by ${userName} with email : ${userEmail}  </h4>
             <br />
-            <h3> <a href="https://connect-x.vercel.app/invite/${roomid}"> Accept Invite and Add To Calendar </a> </h3>
+            <h3> <a href="https://meetup-frontend.herokuapp.com/invite/${roomid}"> Accept Invite and Add To Calendar </a> </h3>
         `,
   };
 
